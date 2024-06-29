@@ -15,14 +15,14 @@ loginButton.addEventListener('click', (event) => {
   const username = loginForm.username.value;
   const password = loginForm.password.value;
 
-  if (username === 'kds' && password === 'home') {
+  if (username === 'kdshome' && password === '0000') {
     alert('KDS HOME 방문을 환영 합니다.');
     location.href = 'https://kdshome.github.io/main01.html';
     /*  location.reload(); */
-  } else if (username === 'kds1' && password === 'home1') {
+  } else if (username === 'kds11' && password === 'home11') {
     alert('KDS HOME 방문을 환영 합니다.');
     location.href = 'https://kdshome.github.io/main01.html';
-  } else if (username === 'kds2' && password === 'home2') {
+  } else if (username === 'kds22' && password === 'home22') {
     alert('KDS HOME 방문을 환영 합니다.');
     location.href = 'https://kdshome.github.io/main01.html';
   } else {
